@@ -31,7 +31,7 @@ Basically the `button.py` file is always running, thanks to the cron job. This l
 
 ## Circuit
 
-Here is the circuit diagram I made. I have 3.3V connected to a 1K Ohm resistor, which is wired to the pushbutton, and the singal pin (pin 12). The other leg of the pushbutton is connected to GND.
+Here is the circuit diagram I made. I have 3.3V connected to a 1K Ohm resistor, which is wired to the pushbutton, and the signal pin (pin 12). The other leg of the pushbutton is connected to GND.
 
 ![HueButton](/HueButton.png?raw=true "HueButton")
 
