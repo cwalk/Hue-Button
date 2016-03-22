@@ -31,7 +31,7 @@ Basically the `button.py` file is always running, thanks to the cron job. This l
 
 ## Circuit
 
-Here is the circuit diagram I used
+Here is the circuit diagram I made:
 
 ![HueButton](/HueButton.png?raw=true "HueButton")
 
