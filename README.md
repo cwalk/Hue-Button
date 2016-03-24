@@ -1,6 +1,10 @@
 # Introduction
 Button that will use a Raspberry Pi to turn on Philips Hue Lights
 
+## YouTube
+
+YouTube: https://www.youtube.com/watch?v=SGacv8Jgf-8
+
 ## Set Up
 
 I am using a Raspberry Pi 2, but you should be able to use almost any version of the Raspberry Pi without issue.
@@ -34,10 +38,6 @@ Basically the `button.py` file is always running, thanks to the cron job. This l
 Here is the circuit diagram I made. I have 3.3V connected to a 1K Ohm resistor, which is wired to the pushbutton, and the signal pin (pin 12). The other leg of the pushbutton is connected to GND.
 
 ![HueButton](/HueButton.png?raw=true "HueButton")
-
-## YouTube
-
-YouTube: 
 
 ## Pictures
 
