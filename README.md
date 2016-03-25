@@ -33,7 +33,7 @@ Basically the `button.py` file is always running, thanks to the cron job. This l
 
 `turnAllOff.js` turns all the lights off, and `turnAllOn.js` turns them all on. This uses nodejs/cylonjs. You will need to substitute your own Philips Bridge information for the HOSTNAME and USERNAME at the tops of both of these files.
 
-## Circuit
+## Circuit Diagram
 
 Here is the circuit diagram I made. I have 3.3V connected to a 1K Ohm resistor, which is wired to the pushbutton, and the signal pin (pin 12). The other leg of the pushbutton is connected to GND.
 
