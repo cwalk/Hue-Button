@@ -21,6 +21,8 @@ Make sure you do `npm install` in the `HueButton/` directory. You should now hav
 
 If you want more help, check out: https://cylonjs.com, http://cylonjs.com/documentation/platforms/raspberry-pi/, and http://cylonjs.com/documentation/platforms/hue/
 
+For more info on pushbutton seutup, read here: http://razzpisampler.oreilly.com/ch07.html
+
 ## Cron job
 
 What I did was setup a cron job to run my `launcher.sh` script everytime my Pi reboots. This makes it easy because all I have to do is add power to the Pi, and the button starts working after the Pi boots. Now I made `launcher.sh` run on reboot, but all this shell script does is naviagte to my project directory, and run `python button.py`. Please feel free to just set up a cron job to run `python button.py` instead, thats what I would do now (but I was learning while doing this, so lessons learned).
